@@ -1,0 +1,6 @@
+name: "myplugin1"
+version: "0.1.0"
+usage: "Printss Helm Environment Variables"
+description: |-
+  Prints Helm Environment Variables
+command: "env"

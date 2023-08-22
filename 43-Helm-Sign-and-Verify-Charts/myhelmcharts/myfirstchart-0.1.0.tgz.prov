@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart for Kubernetes
+name: myfirstchart
+type: application
+version: 0.1.0
+
+...
+files:
+  myfirstchart-0.1.0.tgz: sha256:c39d9b25ac14f9b0df127402a045a7102ac09138642c87e77aa7fa0e462cddf0
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJk4yZLCRC8QehzeDC4TgAAk80MAJw33Za6qRkZ77j56xEeXnGh
+BmWhNvBeaXt4AwluGxhKSbZESbt6MMI+2HQBKJU1lV6PuYMal1lboeV5jtUMqjmg
+F0QXxm1WB1b93QvAbGJ3Jy7JF5xxwUrM2Kh7inEDM+C2JWv8j/RXOAUzr6ntq7Id
+h39K4mvwOniG8lZoYMuSSaeZpo/Yhaat+z+plWKGQu5Xlb1oGtPwAo1OaUKR3vA9
+qbDoTb/V3l9ktiROHlzF5UkV3IlEgMGYP0rIAmPWpb6rgh+Xg75AuSRGAJbJHU8m
+x0byJDxtIUGWW6jr75axTwDFet+mkUoYF1UI90OCQ1hd6sYArNk7xS4ZBZPzZxcN
+yH6YwXptw/YnR4uffbEejyoPK8ZpL5W1hVUsIxb9RPSgkTvsr3bgLPh8/syVgaIW
+NMa5g08qdn787uvOAvHFXj4iuNSQUbqkksVwcixg8CkS+CSCekGf/VNTry/+tqgy
+R+OXfKW0r3cnRIR0SAdp3CNiebPgASnmZ4AGNrUx4A==
+=Zr7X
+-----END PGP SIGNATURE-----

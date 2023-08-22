@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: myhook-postdelete
+  annotations:
+    "helm.sh/hook": "post-delete"
+spec:
+  restartPolicy: Never
+  containers:
+    - name: myhook-postdelete-container
+      image: busybox
+      imagePullPolicy: IfNotPresent
+      command:  ['sh', '-c', 'echo post-delete hook Pod is running && sleep 15']
+       

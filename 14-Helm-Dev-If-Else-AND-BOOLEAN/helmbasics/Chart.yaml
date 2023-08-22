@@ -1,0 +1,6 @@
+apiVersion: v2
+name: helmbasics
+description: A Helm chart for learning Helm Basics
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

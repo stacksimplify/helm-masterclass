@@ -1,0 +1,20 @@
+# For testing Flow Control: with 
+podAnnotations: 
+  appName: myapp1
+  appType: webserver
+  appTech: HTML
+
+# For testing Flow Control: with - Scope more detailed
+myapps:
+  data: 
+    config: 
+      appName: myapp1
+      appType: webserver
+      appTech: HTML
+      appDb: mysql
+
+
+
+
+
+

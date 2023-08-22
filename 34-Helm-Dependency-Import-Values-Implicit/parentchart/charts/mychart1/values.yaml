@@ -1,0 +1,31 @@
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+image:
+  repository: ghcr.io/stacksimplify/kubenginx
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
+
+nameOverride: ""
+fullnameOverride: ""
+podAnnotations: {}
+
+service:
+  type: NodePort
+  port: 80
+  nodePort: 31231
+
+# Export Values - MyChart1 (Used for Import Values Explicit Usecase)
+exports:
+  mychart1Data:
+    mychart1appInfo:
+      appName: kapp1
+      appType: MicroService
+      appDescription: Used for listing products   
+
+ 
+
+
+

@@ -1,0 +1,6 @@
+# If, else if, else
+myapp:
+  env: prod
+  retail:
+    enableFeature: true
+

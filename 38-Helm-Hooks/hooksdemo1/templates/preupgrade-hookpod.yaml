@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: myhook-preupgrade
+  annotations:
+    "helm.sh/hook": "pre-upgrade"
+spec:
+  restartPolicy: Never
+  containers:
+    - name: myhook-preupgrade-container
+      image: busybox
+      imagePullPolicy: IfNotPresent
+      command:  ['sh', '-c', 'echo preupgrade hook Pod is running && sleep 15']
+       

@@ -1,0 +1,9 @@
+# Range with Dictionary
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}-configmap1
+data: 
+{{- range $key, $value := .Values.myapps.config1 }}
+{{- $key | nindent 2}}: {{ $value }}
+{{- end}}  

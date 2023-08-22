@@ -1,0 +1,10 @@
+# Range: Access Root Objec in Range with Helm Variable
+{{- $chartName := .Chart.Name  }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}-configmap2
+data: 
+{{- range $key, $value := .Values.myapps.config2 }}
+{{- $key | nindent 2}}: {{ $value }}-{{ $chartName }}
+{{- end}}  

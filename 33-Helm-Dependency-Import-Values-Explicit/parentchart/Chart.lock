@@ -1,0 +1,9 @@
+dependencies:
+- name: mychart1
+  repository: file://charts/mychart1
+  version: 0.1.0
+- name: mychart2
+  repository: file://charts/mychart2
+  version: 0.4.0
+digest: sha256:f54663d6ef7b091da79b562f4e2c56028596d74013d5f8b881c1a0315827339b
+generated: "2023-07-27T18:20:01.548078+05:30"

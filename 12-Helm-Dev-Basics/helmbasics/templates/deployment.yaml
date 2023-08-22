@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}
+  labels:
+    app: nginx
+  annotations:
+    app.kubernetes.io/managed-by: {{ .Release.Service }}
+    # Quote Function
+    app.kubernetes.io/managed-by: {{ quote .Release.Service }}        
+    # Pipeline
+    app.kubernetes.io/managed-by: {{ .Release.Service | quote | upper | lower }}        
+    # default Function
+    app.kubernetes.io/name: {{ default "MYRELEASE101" .Values.releaseName | lower }}
+    # Controlling Leading and Trailing White spaces 
+    leading-whitespace: "   {{- .Chart.Name }}    kalyan"
+    trailing-whitespace: "   {{ .Chart.Name -}}    kalyan"
+    leadtrail-whitespace: "   {{- .Chart.Name -}}    kalyan"   
+    # indent function
+    indenttest: "  {{- .Chart.Name | indent 4 -}}  "  
+    # nindent function
+    nindenttest: "  {{- .Chart.Name | nindent 4 -}}  "        
+spec:
+  replicas: {{ default 2 .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: ghcr.io/stacksimplify/kubenginx:4.0.0
+        ports:
+        - containerPort: 80
+        resources:
+{{- toYaml .Values.resources | nindent 10 }}
+        

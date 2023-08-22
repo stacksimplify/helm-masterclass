@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}
+  labels:
+    app: nginx
+spec:
+{{- with .Values.myapp }}
+{{- if and .retail.enableFeature (eq .env "prod") }}
+  replicas: 6
+{{- else if eq .env "prod" }}  
+  replicas: 4
+{{- else if eq .env "qa" }}    
+  replicas: 2
+{{- else }}
+  replicas: 1  
+{{- end }}  
+{{- end }}  
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: ghcr.io/stacksimplify/kubenginx:4.0.0
+        ports:
+        - containerPort: 80

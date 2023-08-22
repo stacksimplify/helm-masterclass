@@ -1,0 +1,13 @@
+#replicaCount: 
+
+#releaseName: MYAPP100
+releaseName: ""
+
+# Resources for testing Template Function: toYaml 
+resources: 
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi

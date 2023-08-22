@@ -1,0 +1,11 @@
+releaseName: "kalyan"
+replicaCount: 0
+
+# Resources for testing Template Function: toYaml 
+resources: 
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}
+data: 
+{{- with .Values.myapps.data.config }}
+  application-name: {{ .appName }}
+  application-type: {{ .appType }}
+{{- end}}  

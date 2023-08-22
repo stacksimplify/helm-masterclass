@@ -1,0 +1,41 @@
+#replicaCount: 
+
+#releaseName: MYAPP100
+releaseName: ""
+
+# Resources for testing Template Function: toYaml 
+resources: 
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+# For testing Flow Control: if-else Block
+image:
+  environment: ""
+  repository: ghcr.io/stacksimplify/kubenginxhelm
+  pullPolicy: IfNotPresent
+  devtag: "0.2.0"
+  qatag: "0.3.0"
+
+
+# For testing Flow Control: with Block
+#podAnnotations: {}
+podAnnotations: 
+  appName: myapp1
+  appType: webserver
+  appTech: HTML
+
+# For testing Flow Control: with Block - Scope more detailed
+myapps:
+  data: 
+    config: 
+      appName: myapp1
+      appType: webserver
+      appTech: HTML
+      appDb: mysql
+
+
+
