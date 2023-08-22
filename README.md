@@ -1,5 +1,11 @@
 # Helm Masterclass: 50 Practical Demos for Kubernetes DevOps
 
+## Course Details
+- **Title**
+"Mastering Helm: A Comprehensive Guide to Kubernetes DevOps with Practical Demos"
+
+Create, Develop, Install, Upgrade, Rollback, Package, and Publish Helm Charts with step-by-step practical demos.
+
 ## Course Modules
 01. Install Docker Desktop and HelmCLI
 02. Helm Install
@@ -50,48 +56,34 @@
 
 
 ## What will students learn in your course?
-- You will learn to master Kubernetes on Google GKE with 75 Real-world  demo's on Google Cloud Platform with 20+ Kubernetes and 30+ Google Cloud Services
-- You will learn Kubernetes Basics for 4.5 hours
-- You will create GKE Standard and Autopilot clusters with public and private networks
-- You will learn to implement Kubernetes Storage with Google Persistent Disks and Google File Store
-- You will also use Google Cloud SQL, Cloud Load Balancing to deploy a sample application outlining LB to DB usecase in GKE Cluster
-- You will master Kubernetes Ingress concepts in detail on GKE with 22 Real-world Demos
-- You will implement Ingress Context Path Routing and Name based vhost routing
-- You will implement Ingress with Google Managed SSL Certificates
-- You will master Google GKE Workload Identity with a detailed dedicated demo.
-- You will implement External DNS Controller to automatically add, delete DNS records automatically in Google Cloud DNS Service
-- You will implement Ingress with Preshared SSL and Self Signed Certificates
-- You will implement Ingress with Cloud CDN, Cloud Armor, Internal Load Balancer, Cookie Affinity, IP Affinity, HTTP Access Logging.
-- You will implement Ingress with Google Identity-Aware Proxy
-- You will learn to use Google Artifact Registry with GKE
-- You will implement DevOps Continuous Integration (CI) and Continuous Delivery (CD) with Cloud Build and Cloud Source Services
-- You will learn to master Kubernetes Probes (Readiness, Startup, Liveness)
-- You will implement Kubernetes Requests, Limits, Namespaces, Resource Quota and Limit Range
-- You will implement GKE Cluster Autoscaler and Horizontal Pod Autoscaler
-
+- You will master all 24 Helm commands, along with their respective subcommands and flags, through multiple practical demonstrations.
+- You will learn how to develop Helm Charts through 13 Helm development demos.
+- You will learn flow control actions such as If-else, With, and Range, in combination with functions like EQ, AND, BOOLEAN, OR, NOT, DEFAULT, and QUOTE.
+- You will learn to create, package, install, upgrade, rollback, and uninstall Helm Charts.
+- You will learn to implement Helm Dependency through 9 demos, which cover Alias, Condition, Tags, Global Values, and Import values.
+- You will learn Helm concepts such as starters, plugins, hooks, tests, resource policy, and Values JSON Schema through practical demos
+- You will learn to implement Helm Chart signing and verification.
+- You will learn how to create a Helm Repository on GitHub and integrate it with Artifact Hub. 
 
 
 ## What are the requirements or prerequisites for taking your course?
-- You must have an Google Cloud account to follow with me for hands-on activities.
-- You don't need to have any basic knowledge of Kubernetes. Course will get started from very very basics of Kubernetes and take you to very advanced levels
-- Any Cloud Platform basics is required to understand the terminology
+- You must have Kubernetes knowledge and experience to follow with me for hands-on activities.
 
 ## Who is this course for?
-- Infrastructure Architects or Sysadmins or Developers who are planning to master Kubernetes from Real-World perspective on Google Cloud Platform (GCP)
-- Any beginner who is interested in learning Kubernetes with Google Cloud Platform (GCP) 
-- Any beginner who is planning their career in DevOps
-
+- This course is designed for students who have completed my AWS EKS, Azure AKS, or Google GKE Kubernetes courses.
+- Infrastructure Architects or Sysadmins or Developers or DevOps Engineers who are planning to master Helm.
 
 ## Github Repositories used for this course
-- [Terraform on AWS EKS Kubernetes IaC SRE- 50 Real-World Demos](https://github.com/stacksimplify/terraform-on-aws-eks)
-- [Course Presentation](https://github.com/stacksimplify/terraform-on-aws-eks/tree/main/course-presentation)
-- [Kubernetes Fundamentals](https://github.com/stacksimplify/kubernetes-fundamentals)
+- [helm-masterclass](https://github.com/stacksimplify/helm-masterclass)
+- [helm-charts](https://github.com/stacksimplify/helm-charts)
+- [helm-charts-repo](https://github.com/stacksimplify/helm-charts-repo)
+- [Course Presentation](https://github.com/stacksimplify/helm-masterclass/course-presentation/)
 - **Important Note:** Please go to these repositories and FORK these repositories and make use of them during the course.
 
 
 ## Each of my courses come with
 - Amazing Hands-on Step By Step Learning Experiences
-- Real Implementation Experience
+- Practical demos for each and every concept
 - Friendly Support in the Q&A section
 - "30-Day "No Questions Asked" Money Back Guaranteed by Udemy"
 
