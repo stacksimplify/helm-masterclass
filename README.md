@@ -1,10 +1,8 @@
 # Helm Masterclass: 50 Practical Demos for Kubernetes DevOps
 
 ## Course Details
-- **Title**
-"Mastering Helm: A Comprehensive Guide to Kubernetes DevOps with Practical Demos"
-
-Create, Develop, Install, Upgrade, Rollback, Package, and Publish Helm Charts with step-by-step practical demos.
+- **Title:** Helm Masterclass: 50 Practical Demos for Kubernetes DevOps
+- **Subtitle:** Create, Develop, Install, Upgrade, Rollback, Package, and Publish Helm Charts with step-by-step practical demos.
 
 ## Course Modules
 01. Install Docker Desktop and HelmCLI
