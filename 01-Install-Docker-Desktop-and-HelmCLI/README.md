@@ -23,14 +23,20 @@ Open Docker Desktop and SignIn to Docker Hub
 ```
 ### Step-03-02: WINDOWS: Install Docker Desktop 
 ```t
-# Install Docker Desktop on Windows
+# Download Docker Desktop
+https://www.docker.com/products/docker-desktop/
 
+# Install Docker Desktop on Windows
+Run the "Docker Desktop Installer.exe"
 
 # Create Docker Hub Account
 https://hub.docker.com
 
 # Signin Docker Desktop 
 Open Docker Desktop and SignIn to Docker Hub
+
+# Configure kubectl cli on Windows PATH
+C:\Program Files\Docker\Docker\Resources\bin
 ```
 
 ## Step-04: Enable Kubernetes Cluster
@@ -101,7 +107,6 @@ kubectl get svc
 kubectl get deploy
 ```
 
-
 ## Step-07: Install Helm using Package Managers
 - [Install Helm](https://helm.sh/docs/intro/install/)
 ```t
@@ -120,7 +125,20 @@ helm version
 # Helm Environment variables
 helm env
 ```
+## Step-08: Windows Install Helm CLI using package
+```t
+# Helm Releases - Download Windows amd64
+https://github.com/helm/helm/releases
 
+# Uzip the file
+helm-v3.12.3-windows-amd64.zip
+
+# Copy to C:\helm Drive
+C:\ Drive
+
+# Set Path
+C:\helm\windows-amd64
+```
 
 ## Additional Optional Step: Install kubectl (if not installed by default)
 ```t
