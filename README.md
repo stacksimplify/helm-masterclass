@@ -3,11 +3,11 @@
 [![Image](images/helm-masterclass.png "Helm Masterclass: 50 Practical Demos for Kubernetes DevOps")](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 
 
-## Course Details
+## [Course Details](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 - **Title:** [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 - **Subtitle:** Create, Develop, Install, Upgrade, Rollback, Package, and Publish Helm Charts with step-by-step practical demos.
 
-## Course Modules
+## [Course Modules](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 01. Install Docker Desktop and HelmCLI
 02. Helm Install
 03. Helm Upgrade with set option
@@ -56,7 +56,7 @@
 46. Helm Values Validate with JSON Schema
 
 
-## What will students learn in your course?
+## [What will students learn in your course?](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 - You will master all 24 Helm commands, along with their respective subcommands and flags, through multiple practical demonstrations.
 - You will learn how to develop Helm Charts through 13 Helm development demos.
 - You will learn flow control actions such as If-else, With, and Range, in combination with functions like EQ, AND, BOOLEAN, OR, NOT, DEFAULT, and QUOTE.
@@ -67,14 +67,14 @@
 - You will learn how to create a Helm Repository on GitHub and integrate it with Artifact Hub. 
 
 
-## What are the requirements or prerequisites for taking your course?
+## [What are the requirements or prerequisites for taking your course?](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 - You must have Kubernetes knowledge and experience to follow with me for hands-on activities.
 
-## Who is this course for?
+## [Who is this course for?](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 - This course is designed for students who have completed my AWS EKS, Azure AKS, or Google GKE Kubernetes courses.
 - Infrastructure Architects or Sysadmins or Developers or DevOps Engineers who are planning to master Helm.
 
-## Github Repositories used for this course
+## [Github Repositories used for this course](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 - [helm-masterclass](https://github.com/stacksimplify/helm-masterclass)
 - [helm-charts](https://github.com/stacksimplify/helm-charts)
 - [helm-charts-repo](https://github.com/stacksimplify/helm-charts-repo)
@@ -82,7 +82,7 @@
 - **Important Note:** Please go to these repositories and FORK these repositories and make use of them during the course.
 
 
-## Each of my courses come with
+## [Each of my courses come with](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 - Amazing Hands-on Step By Step Learning Experiences
 - Practical demos for each and every concept
 - Friendly Support in the Q&A section
