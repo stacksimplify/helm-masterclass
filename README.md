@@ -1,7 +1,10 @@
-# Helm Masterclass: 50 Practical Demos for Kubernetes DevOps
+# [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
+
+[![Image](images/helm-masterclass.png "Helm Masterclass: 50 Practical Demos for Kubernetes DevOps")](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
+
 
 ## Course Details
-- **Title:** Helm Masterclass: 50 Practical Demos for Kubernetes DevOps
+- **Title:** [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 - **Subtitle:** Create, Develop, Install, Upgrade, Rollback, Package, and Publish Helm Charts with step-by-step practical demos.
 
 ## Course Modules
