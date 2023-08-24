@@ -124,6 +124,14 @@ helm pull mygithelmrepo/myfirstchart
 # Helm Pull --version (downloads specified chart version)
 helm pull mygithelmrepo/myfirstchart --version 0.1.0
 
+# Docker Login (if not logged in)
+docker login
+
 # Helm Push
+helm push myfirstchart-0.1.0.tgz  oci://registry-1.docker.io/stacksimplify
+helm push myfirstchart-0.2.0.tgz  oci://registry-1.docker.io/stacksimplify
+
+# Verify on Docker Hub
+https://hub.docker.com
 ```
 
