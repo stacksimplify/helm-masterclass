@@ -104,3 +104,26 @@ kubectl get svc
 http://localhost:<get-from-svc-output>
 ```
 
+## Step-08: Migrate from Classic Chart Repository to OCI Registry
+```t
+# List and add Helm Chart Repository
+helm repo list
+helm repo add mygithelmrepo https://stacksimplify.github.io/helm-charts-repo/
+helm repo update
+
+# Search Helm Repository
+helm search repo myfirstchart
+
+# Create folder migrate
+mkdir migrate
+cd migrate
+
+# Helm Pull (downloads latest chart version - in our case it is 0.2.0)
+helm pull mygithelmrepo/myfirstchart
+
+# Helm Pull --version (downloads specified chart version)
+helm pull mygithelmrepo/myfirstchart --version 0.1.0
+
+# Helm Push
+```
+
