@@ -1,6 +1,6 @@
 # [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 
-[![Image](images/helm-masterclass.png "Helm Masterclass: 50 Practical Demos for Kubernetes DevOps")](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
+[![Image](images/helm-highest-rated.png "Helm Masterclass: 50 Practical Demos for Kubernetes DevOps")](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
 
 
 ## [Course Details](https://links.stacksimplify.com/helm-masterclass-kubernetes-devops)
