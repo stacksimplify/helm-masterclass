@@ -94,14 +94,14 @@ Observation: Version 2 of application should be displayed
 ## Step-06: Do two more helm upgrades - For practice purpose
 ```t
 # Helm Upgrade to 3.0.0
-helm upgrade myapp1 kalyan-repo/myapp1 --set "image.tag=3.0.0"
+helm upgrade myapp1 stacksimplify/mychart1 --set "image.tag=3.0.0"
 
 # Access Application
 http://localhost:<NODE-PORT>
 http://localhost:31231
 
 # Helm Upgrade to 4.0.0
-helm upgrade myapp1 kalyan-repo/myapp1 --set "image.tag=4.0.0"
+helm upgrade myapp1 stacksimplify/mychart1 --set "image.tag=3.0.0"
 
 # Access Application
 http://localhost:<NODE-PORT>
