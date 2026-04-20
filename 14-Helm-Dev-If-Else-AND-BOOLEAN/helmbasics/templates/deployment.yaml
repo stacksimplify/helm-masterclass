@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-{{- if and .Values.myapp.retail.enableFeature (eq .Values.myapp.env "prod") }}
+{{- if and (eq .Values.myapp.retail.enableFeature true) (eq .Values.myapp.env "prod") }}
   replicas: 6
 {{- else if eq .Values.myapp.env "prod" }}  
   replicas: 4
